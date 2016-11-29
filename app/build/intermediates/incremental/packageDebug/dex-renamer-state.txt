@@ -1,0 +1,7 @@
+#Tue Nov 29 18:37:36 SGT 2016
+base.0=C\:\\Users\\Rana lucky\\Desktop\\SampleMerchantApp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_8a1c3b241a336b5862af082f1c9213326b0bbf78
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=C\:\\Users\\Rana lucky\\Desktop\\SampleMerchantApp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_699f31f3ffdf593fb72f74e540e7b064ff0f304a\\classes.dex
+base.1=C\:\\Users\\Rana lucky\\Desktop\\SampleMerchantApp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_699f31f3ffdf593fb72f74e540e7b064ff0f304a
+file.0=C\:\\Users\\Rana lucky\\Desktop\\SampleMerchantApp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_8a1c3b241a336b5862af082f1c9213326b0bbf78\\classes.dex

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Rana lucky\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.1\support-annotations-22.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
+        <dex dex="C:\Users\Rana lucky\Desktop\SampleMerchantApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-22.2.1_6b11d2c843936dab6745f9b9406eee109133c737\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Rana lucky\Desktop\SampleMerchantApp\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f8efd0096475e0daf054267b61544e10dc776503">
+        <dex dex="C:\Users\Rana lucky\Desktop\SampleMerchantApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-22.2.1_3afc29259130f577e9bdb4c5083a2061dffc934b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Rana lucky\Desktop\SampleMerchantApp\app\libs\PGSDK_v1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="957d299c4769678a84ac41b5a05c970511bf5254">
+        <dex dex="C:\Users\Rana lucky\Desktop\SampleMerchantApp\app\build\intermediates\transforms\dex\debug\folders\1000\2\PGSDK_v1.0_588d51caa62552ac48ccd61aa68f3ec502bb6391\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Rana lucky\Desktop\SampleMerchantApp\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="a461350882acfaf0abdf13e03b3a9c7aa8605c13">
+        <dex dex="C:\Users\Rana lucky\Desktop\SampleMerchantApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_8a1c3b241a336b5862af082f1c9213326b0bbf78\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Rana lucky\Desktop\SampleMerchantApp\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="074c6af0ea2806a9b1245061912f96932f6fb2f8">
+        <dex dex="C:\Users\Rana lucky\Desktop\SampleMerchantApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_699f31f3ffdf593fb72f74e540e7b064ff0f304a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Rana lucky\Desktop\SampleMerchantApp\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\libs\internal_impl-22.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="C:\Users\Rana lucky\Desktop\SampleMerchantApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-22.2.1_20e408d7cea117c5d8eefcede40ab53573e1e856\classes.dex" />
+    </item>
+
+</items>
