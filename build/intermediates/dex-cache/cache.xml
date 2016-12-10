@@ -34,7 +34,7 @@
         jumboMode="true"
         optimize="true"
         revision="23.0.1"
-        sha1="a461350882acfaf0abdf13e03b3a9c7aa8605c13">
+        sha1="cf787ca4806a63fd7e8e28ef1f8dded490586776">
         <dex dex="C:\Users\Rana lucky\Desktop\SampleMerchantApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_8a1c3b241a336b5862af082f1c9213326b0bbf78\classes.dex" />
     </item>
     <item
@@ -43,7 +43,7 @@
         jumboMode="true"
         optimize="true"
         revision="23.0.1"
-        sha1="074c6af0ea2806a9b1245061912f96932f6fb2f8">
+        sha1="50fd22cbdbe6eb0cce7f2d6c2baafa78c519c035">
         <dex dex="C:\Users\Rana lucky\Desktop\SampleMerchantApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_699f31f3ffdf593fb72f74e540e7b064ff0f304a\classes.dex" />
     </item>
     <item

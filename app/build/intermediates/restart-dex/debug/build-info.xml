@@ -5,40 +5,33 @@
     density="xhdpi"
     format="8"
     plugin-version="2.2.2"
-    timestamp="1484185857188982"
+    timestamp="74033256604060"
     token="-3713642605709054758"
-    verifier="COLD_SWAP_REQUESTED" >
+    verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="427" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="119" />
+        duration="0" />
     <task
         name="verifier"
-        duration="4" />
+        duration="0" />
 
     <artifact
-        location="C:\Users\Rana lucky\Desktop\SampleMerchantApp\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_0\classes.dex"
-        type="DEX" />
+        location="C:\Users\Rana lucky\Desktop\SampleMerchantApp\app\build\outputs\apk\app-debug.apk"
+        type="MAIN" />
 
     <build
-        timestamp="1484016439738070"
+        timestamp="74033256604060"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="C:\Users\Rana lucky\Desktop\SampleMerchantApp\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
-    </build>
-    <build
-        timestamp="1484185857188982"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="C:\Users\Rana lucky\Desktop\SampleMerchantApp\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_0\classes.dex"
-            type="DEX" />
     </build>
 
 </instant-run>

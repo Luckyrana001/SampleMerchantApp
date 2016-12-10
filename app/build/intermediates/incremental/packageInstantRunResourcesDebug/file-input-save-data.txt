@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Tue Nov 29 18:37:33 SGT 2016
+#Sat Dec 10 16:12:12 SGT 2016
 1.base=C\:\\Users\\Rana lucky\\Desktop\\SampleMerchantApp\\app\\build\\intermediates\\res\\resources-debug.ap_
 1.file=C\:\\Users\\Rana lucky\\Desktop\\SampleMerchantApp\\app\\build\\intermediates\\res\\resources-debug.ap_\\AndroidManifest.xml
 2.base=C\:\\Users\\Rana lucky\\Desktop\\SampleMerchantApp\\app\\build\\intermediates\\res\\resources-debug.ap_

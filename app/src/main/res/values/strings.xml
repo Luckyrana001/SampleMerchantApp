@@ -19,10 +19,10 @@
     <string name="sample_transaction_amount">1</string>
     <string name="sample_channel_id">WAP</string>
     <string name="sample_industry_type_id">Retail</string>
-    <string name="sample_website">worldpressplg</string>
+    <string name="sample_website">www.androidluckyguys.com</string>
     <string name="sample_theme">merchant</string>
     <string name="sample_cust_email_id">abc@gmail.com</string>
-    <string name="sample_cust_mobile_no">123</string>
+    <string name="sample_cust_mobile_no">7777777777</string>
     <string name="sample_merchant_id_staging">WorldP64425807474247</string>
     <string name="sample_checksum_generation_url">https://pguat.paytm.com/merchant-chksum/ChecksumGenerator</string>
     <string name="sample_checksum_verification_url">https://pguat.paytm.com/merchant-chksum/ValidateChksum</string>
