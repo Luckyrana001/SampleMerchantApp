@@ -32,7 +32,7 @@ public class MerchantActivity extends Activity {
 		initOrderId();
 		getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_HIDDEN);
 	}
-	
+
 	//This is to refresh the order id: Only for the Sample App's purpose.
 	@Override
 	protected void onStart(){
@@ -40,7 +40,7 @@ public class MerchantActivity extends Activity {
 		initOrderId();
 		getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_HIDDEN);
 	}
-	
+
 
 	private void initOrderId() {
 		Random r = new Random(System.currentTimeMillis());
@@ -51,11 +51,15 @@ public class MerchantActivity extends Activity {
 	}
 
 	public void onStartTransaction(View view) {
-		PaytmPGService Service = PaytmPGService.getStagingService();
+		// staging server url
+		//PaytmPGService Service = PaytmPGService.getStagingService();
+
+		// production server url
+		PaytmPGService Service = PaytmPGService.getProductionService();
 		Map<String, String> paramMap = new HashMap<String, String>();
 
 		// these are mandatory parameters
-		
+
 		paramMap.put("ORDER_ID", ((EditText) findViewById(R.id.order_id)).getText().toString());
 		paramMap.put("MID", ((EditText) findViewById(R.id.merchant_id)).getText().toString());
 		paramMap.put("CUST_ID", ((EditText) findViewById(R.id.customer_id)).getText().toString());
@@ -69,8 +73,12 @@ public class MerchantActivity extends Activity {
 		PaytmOrder Order = new PaytmOrder(paramMap);
 
 		PaytmMerchant Merchant = new PaytmMerchant(
-				"https://pguat.paytm.com/paytmchecksum/paytmCheckSumGenerator.jsp",
-				"https://pguat.paytm.com/paytmchecksum/paytmCheckSumVerify.jsp");
+				//"https://pguat.paytm.com/paytmchecksum/paytmCheckSumGenerator.jsp",
+				//"https://pguat.paytm.com/paytmchecksum/paytmCheckSumVerify.jsp"
+
+
+				//"https://pguat.paytm.com/merchant-chksum/ChecksumGenerator","https://pguat.paytm.com/merchant-chksum/ValidateChksum");
+				"http://paytm.neetprep.com/generate_checksum","http://paytm.neetprep.com/verify_checksum");
 
 		Service.initialize(Order, Merchant, null);
 
@@ -98,7 +106,7 @@ public class MerchantActivity extends Activity {
 
 					@Override
 					public void onTransactionFailure(String inErrorMessage,
-							Bundle inResponse) {
+													 Bundle inResponse) {
 						// This method gets called if transaction failed. //
 						// Here in this case transaction is completed, but with
 						// a failure. // Error Message describes the reason for
@@ -111,8 +119,8 @@ public class MerchantActivity extends Activity {
 
 					@Override
 					public void networkNotAvailable() { // If network is not
-														// available, then this
-														// method gets called.
+						// available, then this
+						// method gets called.
 						Toast.makeText(getBaseContext(), "No Internet connection.", Toast.LENGTH_LONG).show();
 
 					}
@@ -126,13 +134,13 @@ public class MerchantActivity extends Activity {
 						// proper format. // 3. Server failed to authenticate
 						// that client. That is value of payt_STATUS is 2. //
 						// Error Message describes the reason for failure.
-						Toast.makeText(getBaseContext(), "Client Authentication Failed.", Toast.LENGTH_LONG).show();
+						Toast.makeText(getBaseContext(), "Client Authentication Failed." + inErrorMessage, Toast.LENGTH_LONG).show();
 
 					}
 
 					@Override
 					public void onErrorLoadingWebPage(int iniErrorCode,
-							String inErrorMessage, String inFailingUrl) {
+													  String inErrorMessage, String inFailingUrl) {
 
 					}
 

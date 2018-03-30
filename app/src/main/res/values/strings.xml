@@ -19,7 +19,7 @@
     <string name="sample_transaction_amount">1</string>
     <string name="sample_channel_id">WAP</string>
     <string name="sample_industry_type_id">Retail</string>
-    <string name="sample_website">www.androidluckyguys.com</string>
+    <string name="sample_website">www.androidluckyguys.wordpress.com</string>
     <string name="sample_theme">merchant</string>
     <string name="sample_cust_email_id">abc@gmail.com</string>
     <string name="sample_cust_mobile_no">7777777777</string>
